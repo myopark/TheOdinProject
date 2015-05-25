@@ -1,0 +1,34 @@
+.header a {
+	font-family: Arial;
+	font-size: 13px;
+	text-decoration: none;
+	color: #404040 ;
+
+}
+
+.header a:hover{
+	text-decoration: underline;
+	color: black;
+}
+.header{
+	position: absolute;
+	right: 0;
+}
+.plus, .mail, .image{
+	display: inline-block;
+	padding-left: 15px;
+}
+
+#signInbox {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background: #4486f8;
+}
+
+.button {
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+
+}
