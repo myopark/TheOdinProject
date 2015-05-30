@@ -9,6 +9,7 @@ body {
 .header ul{
 	position: absolute;
 	right: 0;
+	padding: 30px;
 }
 li{
 	float: left;
@@ -28,15 +29,16 @@ a {
 	color: black;
 }
 #button {
-	display: inline-block;
-	padding: 6px 12px;
+	padding: 0px 12px;
 	border: 1px solid #4486f8;
 	border-radius: 2px;
+	width: 45px;
 	background-color: #4486f8;
 	font-family: sans-serif;
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
+	line-height: 28px;
 
 }
 .center img {
@@ -49,10 +51,10 @@ a {
 	left: 50%
 }
 
-#footer{
-	position: absolute;
-	right: 0;
+.footer {
+	position: fixed;
 	width: 100%;
-	color: #F2F2F2;
+	bottom: 0;
+	background-color: #F2F2F2;
 	border: 1px solid #e0e0e0;
 }
